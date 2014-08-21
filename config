@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#config for wetty
 #Inject docker environmental variables
 env | while read env; do echo "export $env" >> /home/term/.bashrc ; done
 
